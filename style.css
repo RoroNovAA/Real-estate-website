@@ -77,8 +77,7 @@ header div p {
 
 /* LOGO NAME */
 .logo-name-container {
-    /* background-color: #fff; */
-    background-color: red;
+    background-color: #fff;
     padding: 70px 50px;
     margin: 0 30px;
     border-radius: 19px;
@@ -177,6 +176,104 @@ header div p {
     margin: 0 20px;
 }
 
+/* EARLY BIRD BOOKING */
+.early-bird-booking-container {
+  display: flex;
+  justify-content:space-between;
+}
 
+.early-bird-imgs img:first-child {
+  width: 560px;
+  height: 450px;
+  transform: scaleX(-1);
+  position: absolute;
+}
+
+.early-bird-imgs img:nth-child(2) {
+  width: 400px;
+  height: 400px;
+  border-radius: 36px;
+  position: relative;
+  top: -60px;
+  left: 112px;
+}
+
+.early-bird-details {
+  margin: 50px 100px 0 240px;
+}
+
+.early-bird-details h1 {
+  font-size: 65px;
+}
+
+.early-bird-details p {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.early-bird-book-button {
+  padding: 12px 25px;
+  background-color: rgb(102, 99, 233);
+  color: #fff;
+  border: none;
+  border-radius: 24px;
+  font-weight: 700;
+  font-size: 15px;
+  margin-top: 36px;
+  cursor: pointer;
+}
+
+/* EARLY BIRD CONTAINER 2 */
+.early-bird-booking-container-2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 180px;
+  position: relative;
+}
+
+.early-bird-booking-container-2 img:first-child {
+  width: 560px;
+  height: 450px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  object-fit: cover;
+}
+
+.early-bird-booking-container-2 img:nth-child(2) {
+  width: 400px;
+  height: 400px;
+  border-radius: 36px;
+  position:relative;
+  top: -55px;
+  right: 112px;
+  margin-left: 300px;
+}
+
+.early-bird-details-2 {
+  margin-left: 50px;
+  margin-top: 70px;
+}
+
+.early-bird-details-2  h1 {
+  font-size: 65px;
+}
+
+.early-bird-details-2 p {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.early-bird-book-button-2 {
+  padding: 12px 25px;
+  background-color: rgb(102, 99, 233);
+  color: #fff;
+  border: none;
+  border-radius: 24px;
+  font-weight: 700;
+  font-size: 15px;
+  margin-top: 36px;
+  cursor: pointer;
+}
 
 
