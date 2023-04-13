@@ -276,4 +276,96 @@ header div p {
   cursor: pointer;
 }
 
+/* NEWSLETTER */
+.newsletter-container {
+  background-color: rgb(102, 99, 233);
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+  align-items: center;
+  padding: 85px 200px;
+  margin: 90px 75px;
+  border-radius: 55px;
+  position: relative;
+}
+
+.newsletter-content h1 {
+  color: #fff;
+  font-size: 65px;
+}
+
+.newsletter-content p {
+  color: #fff;
+  font-size: 21px;
+  margin-top: 25px;
+  text-align: center;
+  padding: 0px 75px;
+}
+
+.newsletter-container div input {
+  background-color: rgb(57, 54, 240);
+  color: #fff;
+  padding: 20px 250px 20px 65px;
+  border: none;
+  border-radius: 35px;
+  margin-top: 25px;
+}
+
+.subscribe-button {
+  background-color: #fff;
+  color: rgb(102, 99, 233);
+  padding: 18px 40px;
+  border: none;
+  border-radius: 28px;
+  font-weight: 700;
+  font-size: 18px;
+  margin-left: 17px;
+  margin-top: 20px;
+}
+
+.mail-icon {
+  position: relative;
+  left: -470px;
+  top: 10px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 150px;
+}
+
+.footer-1st-div {
+  padding: 2px 2px 2px 2px;
+}
+
+.footer-social-media-icons {
+  display: flex;
+  gap: 25px;
+  list-style-type: none;
+  margin-top: 20px;
+  padding: 0px 25px 0px 0px;
+}
+
+.footer-1st-div p {
+  font-size: 22px;
+  margin-top: 23px;
+}
+
+.location ul,
+.contact ul,
+.legals ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  gap: 20px;
+  font-size: 18px;
+}
+
+.location ul li:first-child,
+.contact ul li:first-child,
+.legals ul li:first-child {
+  margin-top: 35px;
+}
+
 
